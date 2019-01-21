@@ -1,0 +1,29 @@
+{
+  "name": "locsto",
+  "version": "0.0.2",
+  "description": "Lightweight local storage wrapper",
+  "main": "dist/locsto.js",
+  "module": "src/locsto.js",
+  "repository": "https://github.com/ericvera/locsto.git",
+  "author": "Eric Vera <eric.vera@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepare": "yarn webpack "
+  },
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "keywords": [
+    "localStorage",
+    "web"
+  ]
+}
