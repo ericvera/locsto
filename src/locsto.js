@@ -35,4 +35,8 @@ export default class Locsto {
       }
     })
   }
+
+  static clearAll() {
+    window.localStorage.clear()
+  }
 }
