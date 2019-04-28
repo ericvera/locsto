@@ -27,16 +27,16 @@ export default class Locsto {
   }
 
   clear() {
+    Locsto.clearWithPrefix(this.prefix)
+  }
+
+  static clearWithPrefix(prefix) {
     const keys = Object.keys(localStorage)
 
     keys.forEach(key => {
-      if (key.startsWith(this.prefix)) {
+      if (key.startsWith(prefix)) {
         window.localStorage.removeItem(key)
       }
     })
-  }
-
-  static clearAll() {
-    window.localStorage.clear()
   }
 }
