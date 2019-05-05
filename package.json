@@ -1,6 +1,6 @@
 {
   "name": "locsto",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Lightweight local storage wrapper",
   "main": "dist/locsto.js",
   "module": "src/locsto.js",
