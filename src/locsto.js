@@ -1,6 +1,6 @@
 const IdKey = 'locsto.id'
 
-export default class Locsto {
+export class Locsto {
   constructor(prefix, id) {
     if (!prefix) {
       throw Error('prefix is required')
