@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'locsto.js',
-    library: 'locsto'
+    library: 'Locsto',
+    libraryTarget: 'commonjs'
   }
 }
